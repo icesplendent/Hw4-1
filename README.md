@@ -6,9 +6,11 @@
 
 #### 3. Generate eRPC Shim Codes and add them to this folder
 
-#### 4. compile and run this program
+#### 4. Connect uLCD and Xbee to the board.
 
-#### 5. Run `python3 led_test_client.py ${YOUR_PORT}`
+#### 5. compile and run this program
+
+#### 6. Run `python3 led_test_client.py ${YOUR_PORT}`
 
 ## Results
 
