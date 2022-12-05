@@ -14,4 +14,4 @@
 
 ## Results
 
-#### You will see a plus sign shown on the uLCD panel and a cursor blinking at row 0, col 10.
+#### You will see Allen on the screen with a cursor at row 0, col 9
