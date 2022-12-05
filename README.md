@@ -15,3 +15,13 @@
 ## Results
 
 #### You will see Allen on the screen with a cursor at row 0, col 9
+
+## P.S.
+
+#### SDA: D14
+
+#### SCL: D15
+
+#### UART4_RX(@ board side): D0
+
+#### UART4_TX(@ board side): D1
