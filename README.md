@@ -10,7 +10,7 @@
 
 #### 5. compile and run this program
 
-#### 6. Run `python3 led_test_client.py ${YOUR_PORT}`
+#### 6. Run `python3 uLCD.py ${YOUR_PORT}`
 
 ## Results
 
