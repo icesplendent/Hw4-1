@@ -1,0 +1,14 @@
+/*!
+ * You can write copyrights rules here. These rules will be copied into the outputs.
+ */
+
+//@outputDir("erpc_outputs") // output directory
+
+program uLCD_show; // specify name of output files
+
+interface uLCDService // cover functions for same topic
+{
+    putC(int32 c) -> void
+    locate(int32 column, int32 row) -> void
+}
+

@@ -6,7 +6,7 @@
 
 from time import sleep
 import erpc
-from blink_led import *
+from uLCD_show import *
 import sys
 
 
@@ -19,10 +19,18 @@ if __name__ == "__main__":
     # Initialize all erpc infrastructure
     xport = erpc.transport.SerialTransport(sys.argv[1], 9600)
     client_mgr = erpc.client.ClientManager(xport, erpc.basic_codec.BasicCodec)
-    client = client.LEDBlinkServiceClient(client_mgr)
+    client = client.uLCDServiceClient(client_mgr)
 
     print("Call putc")
-    client.led_on(1)
+    client.putC(65)
+    sleep(0.5)
+    client.putC(76)
+    sleep(0.5)
+    client.putC(76)
+    sleep(0.5)
+    client.putC(69)
+    sleep(0.5)
+    client.putC(78)
 
     print("Call locate")
-    client.led_off(1)
+    client.locate(9, 0)
